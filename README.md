@@ -21,7 +21,7 @@ in the following order:
 - `{ResourceFilesDirectory}/{DefaultBaseName}/{ab-CD}.json`
 - `{ResourceFilesDirectory}/{DefaultBaseName}/default.json`
 
-The JSON file maybe a tree a string values. The values are accessed using the `:` separator.
+The JSON file may be a tree of string values. The keys are formed using the `:` separator.
 For example for the file:
 
 ```json
