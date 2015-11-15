@@ -44,11 +44,13 @@ namespace Folke.Localization.Json
     public class JsonStringLocalizerOptions
     {
         /// <summary>
-        /// Where the resource files are stored
+        /// Where the resource directory are stored. The resource directories have the type full name and must
+        /// contain file whose names are the supported culture name (with the .json extension). If a file is
+        /// not found, default.json is open.
         /// </summary>
         public string ResourceFilesDirectory { get; set; }
         /// <summary>
-        /// If the json file for the type is not found, use this name
+        /// If the directory of a type is not found, use this name as a default.
         /// </summary>
         public string DefaultBaseName { get; set; }
     }
