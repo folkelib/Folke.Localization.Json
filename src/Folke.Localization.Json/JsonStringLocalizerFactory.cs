@@ -1,6 +1,6 @@
 ﻿using System;
-using Microsoft.Framework.Localization;
-using Microsoft.Framework.OptionsModel;
+using Microsoft.Extensions.Localization;
+using Microsoft.Extensions.OptionsModel;
 
 namespace Folke.Localization.Json
 {

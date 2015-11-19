@@ -5,9 +5,7 @@ This is an implementation of IStringLocalizer from ASP.NET 5 that uses Json file
 Initialize it in you `Startup` `ConfigureServices` method:
 
 ```csharp
-services.AddJsonLocalization();
-
-services.Configure<JsonStringLocalizerOptions>(options =>
+services.AddJsonLocalization(options =>
 {
 	options.ResourceFilesDirectory = "res"; // The directory that contains the resources
 	options.DefaultBaseName = "text"; // The default sub-directory name
