@@ -1,26 +1,34 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.1.0-*",
   "description": "Implements Microsoft.Extensions.Localization.Abstractions localization using JSON files",
   "authors": [ "Sidoine" ],
-  "tags": [ "localization" ],
-  "projectUrl": "https://github.com/folkelib/Folke.Localization.Json",
-  "licenseUrl": "http://opensource.org/licenses/MIT",
+  "packOptions": {
+    "tags": [ "localization" ],
+    "projectUrl": "https://github.com/folkelib/Folke.Localization.Json",
+    "licenseUrl": "http://opensource.org/licenses/MIT"
+  },
 
   "dependencies": {
-    "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc1-final",
-    "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
-    "Newtonsoft.Json": "7.0.1"
+    "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Options": "1.0.0-rc2-final",
+    "Newtonsoft.Json": "8.0.3"
   },
 
   "frameworks": {
     "net451": { },
-    "dotnet5.4": {
+    "netstandard1.5": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ],
       "dependencies": {
-        "Microsoft.CSharp": "4.0.1-beta-*",
-        "System.Collections": "4.0.11-beta-*",
-        "System.Linq": "4.0.1-beta-*",
-        "System.Runtime": "4.0.21-beta-*",
-        "System.Threading": "4.0.11-beta-*"
+        "Microsoft.CSharp": "4.0.1-rc2-24027",
+        "System.Collections": "4.0.11-rc2-24027",
+        "System.Linq": "4.1.0-rc2-24027",
+        "System.Runtime": "4.1.0-rc2-24027",
+        "System.Threading": "4.0.11-rc2-24027",
+        "System.IO.FileSystem": "4.0.1-rc2-24027"
       }
     }
   }
