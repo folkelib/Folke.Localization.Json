@@ -9,7 +9,7 @@
   },
 
   "dependencies": {
-    "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Localization.Abstractions": "1.0.0",
     "Microsoft.Extensions.Options": "1.0.0",
     "Newtonsoft.Json": "8.0.3"
   },
