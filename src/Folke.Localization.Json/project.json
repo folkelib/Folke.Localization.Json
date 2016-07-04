@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.1.0-*",
+  "version": "1.2.0-*",
   "description": "Implements Microsoft.Extensions.Localization.Abstractions localization using JSON files",
   "authors": [ "Sidoine" ],
   "packOptions": {
@@ -10,7 +10,7 @@
 
   "dependencies": {
     "Microsoft.Extensions.Localization.Abstractions": "1.0.0-rc2-final",
-    "Microsoft.Extensions.Options": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Options": "1.0.0",
     "Newtonsoft.Json": "8.0.3"
   },
 
@@ -23,12 +23,12 @@
         "portable-net45+win8"
       ],
       "dependencies": {
-        "Microsoft.CSharp": "4.0.1-rc2-24027",
-        "System.Collections": "4.0.11-rc2-24027",
-        "System.Linq": "4.1.0-rc2-24027",
-        "System.Runtime": "4.1.0-rc2-24027",
-        "System.Threading": "4.0.11-rc2-24027",
-        "System.IO.FileSystem": "4.0.1-rc2-24027"
+        "Microsoft.CSharp": "4.0.1",
+        "System.Collections": "4.0.11",
+        "System.Linq": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Threading": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
       }
     }
   }
